@@ -1,0 +1,61 @@
+* {
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-image: url("assets/snakeBG.jpg");
+    text-align: center;
+}
+
+h1 {
+    font-size: 61px;
+    margin: 30px;
+    color: rgba(255, 255, 255, 0.82);
+}
+
+
+#board {
+    margin: 20px 0;
+    box-shadow: 0 0 70px black;
+    position: relative;
+    border-radius: 20px;
+}
+
+#playAgain {
+    background-color: #93A605;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.479);
+    color: white;
+    position: absolute;
+    top: 70%;
+    cursor: pointer;
+    left: 45%;
+    border-radius: 39px;
+    font-size: 18px;
+    padding: 17px 28px;
+    display: none;
+}
+
+#startgame {
+    position: absolute;
+    top: 25%;
+    left: 39%;
+}
+
+#startgame img {
+    display: block;
+    width: 336px;
+}
+
+#startgame button {
+    cursor: pointer;
+    border-radius: 39px;
+    font-size: 22px;
+    color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.479);
+    padding: 16px 41px;
+    background-color: #93A605;
+}
